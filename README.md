@@ -64,7 +64,7 @@ Trzeba było więc sobie jakoś z tym poradzić więc stworzyłem zewnętrzną a
 1. Przejdź na stronę [script.google.com](https://script.google.com/).
 2. Kliknij "Ustawienia" - "Google Apps Script API" - włącz.
 3. Kliknij "Nowy projekt". Otworzy się edytor domyślnego pliku "Kog.gs". Zmień nazwę projektu z "Projekt bez nazwy" na np. "Allegro".
-4. Otwórz plik "Kod.js" z listy plików na górze tej strony i skopiuj jego zawartość (domyślnie raczej nie masz skojarzonej aplikacji z rozszerzeniem pliku .js, możesz więc przeciągnąć ten plik na pustą kartę przeglądarki celem wyświetlenia jego zawartości).
+4. Otwórz plik "Kod.js" z listy plików na górze tej strony i skopiuj jego zawartość.
 5. Usuń z edytora obecną zawartość pliku i wklej skopiowany tekst. Zapisz wciskając <kbd>Ctrl</kbd> + <kbd>s</kbd>.
 6. Kliknij "Wdróż" - "Nowe wdrożenie".
 7. Kliknij ikonę kółka zębatego i wybierz "Aplikacja internetowa". Pole "Opis" nie jest wymagane, parametr "Wykonaj jako": "Ja (adres konta Google)", "Kto ma dostęp" zmień na "Każdy". Kliknij "Wdróż"  
