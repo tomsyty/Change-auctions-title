@@ -76,7 +76,7 @@ Trzeba było więc sobie jakoś z tym poradzić więc stworzyłem zewnętrzną a
 10. Prawdopodobnie pojawi się strona z błędem "400 Bad request", jednak mimo tego dostęp aplikacji do konta zostanie przydzielony. Jeśli chciałbyś usunąć udzielony dostęp do konta Google zrobisz to w ustawieniach konta, sekcja "Bezpieczeństwo" - "Twoje połączenia z aplikacjami i usługami innych firm".
 11. Na stronie wdrożenia pojawi się komunikat ze szczegółami wdrożenia, z których istotnym parametrem jest link - aplikacja internetowa. Skopiuj go i wklej na stronie opcji rozszerzenia do pola "Adres aplikacji internetowej".   
   ![googe_new_deployment](https://github.com/tomsyty/Change-auctions-title/assets/41838854/413dc1ea-88fe-4fe1-a971-ce6f287c2373)
-12. Upewnij się że zalogowany jesteś na konto Allegro w ramach którego działać będzie aplikacja. Jeśli nie, wyloguj się (klikając ikonę obok nazwy użytkownika i wybierając "Wyloguj") a następnie zaloguj na właściwe konto.
+12. Przejdź na stronę [developer.allegro.pl.allegrosandbox.pl](https://developer.allegro.pl.allegrosandbox.pl/). Upewnij się że zalogowany jesteś na konto Allegro w ramach którego działać będzie aplikacja. Jeśli nie, wyloguj się (klikając ikonę obok nazwy użytkownika i wybierając "Wyloguj") a następnie zaloguj na właściwe konto.
 13. Kliknij "Zarządzaj API" - "Moje aplikacje".
 14. Kliknij przycisk "Zarejestruj aplikację".  
 15. W formularzu rejestracji aplikacji Allegro podaj następujące dane:
