@@ -1,5 +1,5 @@
 ## Szybka zmiana tytułu aukcji
-To rozszerzenie pozwala na łatwą i szybką zmianę tytułu aukcji bezpośrednio na liście ofert bez konieczności przechodzenia przez cały proces edycji oferty.
+To rozszerzenie pozwala na łatwą i szybką zmianę tytułu aukcji bezpośrednio na liście ofert bez konieczności przechodzenia przez cały proces edycji oferty. Dodatkowo poszerza trochę szerokość kolumny z tytułem aukcji aby wyświetlany tytuł nie był skracany w środku jak ma to miejsce w przypadku gdy jest on długi.
 
 Jest to rozszerzenie do przeglądarki Chrome. Wszystkie rozszerzenia testuję tylko dla systemu Windows 10 i najnowszej wersji przeglądarki.
 
