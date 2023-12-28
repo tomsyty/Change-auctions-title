@@ -13,14 +13,13 @@ lub z menu przeglądarki wybierz "Rozszerzenia - Zarządzaj rozszerzeniami".
 4. Kliknij przycisk "Załaduj rozpakowane"  
 ![chrome_extensions_load_unpacked_button](https://github.com/tomsyty/Change-auctions-title/assets/41838854/f6f2b331-1841-43a5-b0ee-6297f10f035c)
 5. Wybierz folder z uprzednio pobranym i rozpakowanym rozszerzeniem.
-6. Po załadowaniu rozszerzenia otworzy się strona jego opcji, gdzie wymagane będzie uzupełnienie danych Client ID i Client Secret. Uzyskasz je rejestrując aplikację na stronie [developer.allegro.pl](https://developer.allegro.pl/)
+6. Po załadowaniu rozszerzenia otworzy się strona jego opcji, gdzie wymagane będzie uzupełnienie danych Client ID i Client Secret. Uzyskasz je rejestrując aplikację na stronie [apps.developer.allegro.pl](https://apps.developer.allegro.pl/)
 	<details>
 	<summary>Instrukcja rejestracji aplikacji</summary>
 	
-	1. Upewnij się że zalogowany jesteś na konto Allegro w ramach którego działać będzie aplikacja. Jeśli nie, wyloguj się (klikając ikonę obok nazwy użytkownika i wybierając "Wyloguj") a następnie zaloguj na właściwe konto.
-	2. Kliknij "Zarządzaj API" - "Moje aplikacje".
-	3. Kliknij przycisk "Zarejestruj aplikację".  
-	4. W formularzu rejestracji aplikacji Allegro podaj następujące dane:
+	1. Upewnij się że zalogowany jesteś na konto Allegro w ramach którego działać będzie aplikacja. Jeśli nie, wyloguj się (klikając ikonę obok nazwy użytkownika i wybierając "Wyloguj") a następnie zaloguj na właściwe konto i kliknij "Zarządzaj API" - "Moje aplikacje".
+	2. Kliknij przycisk "Zarejestruj aplikację".  
+	3. W formularzu rejestracji aplikacji Allegro podaj następujące dane:
 		- **Nazwa aplikacji:** dowolna, np. "Change Auctions Title"
 		- **Wybierz rodzaj aplikacji:** zaznacz pierwszą opcję ("Aplikacja ma dostęp do przeglądarki, w której użytkownik loguje się do Allegro (np. aplikacja na serwerze albo plik wykonywalny)")  
 		![allegro_application_type_code_flow](https://github.com/tomsyty/Change-auctions-title/assets/41838854/f7e24de4-1ac1-4a02-b066-24ea3027198f)
@@ -29,14 +28,14 @@ lub z menu przeglądarki wybierz "Rozszerzenia - Zarządzaj rozszerzeniami".
 		- Zaznacz `* Znam i akceptuję regulamin REST API Allegro`.
 		- Kliknij przycisk "Zarejestruj".
 		- Na koncie możesz mieć do 5 zarejestrowanych aplikacji. Jeżeli chciałbyś ją usunąć zrobisz to na tej samej stronie.
-	5. Aplikacja zostanie zarejestrowana. Kliknij "Szczegóły" aby odczytać Client ID i Client Secret. Zaznacz i skopiuj parametr Client ID, wklej go na stronie opcji rozszerzenia w polu Client ID. Kliknij "Pokaż" przy parametrze Client Secret, aby odsłonić domyślnie zamaskowaną wartość tego parametru, zaznacz i skopiuj parametr Client Secret, wklej go na stronie ustawień rozszerzenia w polu Client Secret. Zamknij okno ze szczegółami aplikacji.
-	6. Kliknij "Zapisz" a następnie "Zaloguj" na stronie opcji rozszerzenia. Zostaniesz przeniesiony na stronę Allegro gdzie musisz potwierdzić że kontynuujesz jako zalogowany użytkownik  
+	4. Aplikacja zostanie zarejestrowana. Kliknij "Szczegóły" aby odczytać Client ID i Client Secret. Zaznacz i skopiuj parametr Client ID, wklej go na stronie opcji rozszerzenia w polu Client ID. Kliknij "Pokaż" przy parametrze Client Secret, aby odsłonić domyślnie zamaskowaną wartość tego parametru, zaznacz i skopiuj parametr Client Secret, wklej go na stronie ustawień rozszerzenia w polu Client Secret. Zamknij okno ze szczegółami aplikacji.
+	5. Kliknij "Zapisz" a następnie "Zaloguj" na stronie opcji rozszerzenia. Zostaniesz przeniesiony na stronę Allegro gdzie musisz potwierdzić że kontynuujesz jako zalogowany użytkownik  
 	![allegro_confirm_account_dialog](https://github.com/tomsyty/Change-auctions-title/assets/41838854/7485140b-6dd8-4e74-aea6-823a9746b141)
-	7. Kliknij przycisk "Kontynuuj".
-	8. Zostaniesz przeniesiony na stronę Allegro z pytaniem czy chcesz powiązać swoje konto z aplikacją  
+	6. Kliknij przycisk "Kontynuuj".
+	7. Zostaniesz przeniesiony na stronę Allegro z pytaniem czy chcesz powiązać swoje konto z aplikacją  
 	![allegro_account_linking_question_allegro-api-sale-offers-read, allegro-api-sale-offers-write, allegro-api-profile-read](https://github.com/tomsyty/Change-auctions-title/assets/41838854/4aa89ef8-32b2-44b3-b27e-57d3d84ef80b)
-	9. Kliknij przycisk "Tak, powiąż konto". Jeśli chiałbyś usunąć powiązanie aplikacji z kontem zrobisz to na stronie Allegro - Moje Allegro - Konto - Bezpieczeństwo - [Powiązane aplikacje](https://allegro.pl/moje-allegro/moje-konto/powiazane-aplikacje)
-	10. Na stronie opcji rozszerzenia pojawi się komunikat o zalogowaniu wraz z nazwą użytkownika.  
+	8. Kliknij przycisk "Tak, powiąż konto". Jeśli chiałbyś usunąć powiązanie aplikacji z kontem zrobisz to na stronie Allegro - Moje Allegro - Konto - Bezpieczeństwo - [Powiązane aplikacje](https://allegro.pl/moje-allegro/moje-konto/powiazane-aplikacje)
+	9. Na stronie opcji rozszerzenia pojawi się komunikat o zalogowaniu wraz z nazwą użytkownika.  
 	</details>
 7. Jeżeli miałeś otwartą stronę "Mój asortyment", odśwież ją, celem załadowania rozszerzenia.
 8. Najedź kursorem myszy na tytuł aukcji który chcesz zmienić i wciśnij <kbd>Ctrl</kbd> + <kbd>Insert</kbd> (jest to domyślny skrót, możesz go zmienić na stronie opcji rozszerzenia). Tytuł aukcji podświetli się na zielono i będzie możliwa jego edycja. Obok tytułu pojawi się licznik znaków pokazujący długość tekstu (tytuł może mieć do 75 znaków) oraz przyciski do zatwierdzenia i odrzucenia wprowadzonej zmiany. Alternatywnie zatwierdzić można klawiszem <kbd>Enter</kbd> a odrzucić klawiszem <kbd>Esc</kbd> lub klikając w dowolnym miejscu poza polem edycji  
@@ -76,10 +75,9 @@ Trzeba było więc sobie jakoś z tym poradzić więc stworzyłem zewnętrzną a
 10. Prawdopodobnie pojawi się strona z błędem "400 Bad request", jednak mimo tego dostęp aplikacji do konta zostanie przydzielony. Jeśli chciałbyś usunąć udzielony dostęp do konta Google zrobisz to w ustawieniach konta, sekcja "Bezpieczeństwo" - "Twoje połączenia z aplikacjami i usługami innych firm".
 11. Na stronie wdrożenia pojawi się komunikat ze szczegółami wdrożenia, z których istotnym parametrem jest link - aplikacja internetowa. Skopiuj go i wklej na stronie opcji rozszerzenia do pola "Adres aplikacji internetowej".   
   ![googe_new_deployment](https://github.com/tomsyty/Change-auctions-title/assets/41838854/413dc1ea-88fe-4fe1-a971-ce6f287c2373)
-12. Przejdź na stronę [developer.allegro.pl.allegrosandbox.pl](https://developer.allegro.pl.allegrosandbox.pl/). Upewnij się że zalogowany jesteś na konto Allegro w ramach którego działać będzie aplikacja. Jeśli nie, wyloguj się (klikając ikonę obok nazwy użytkownika i wybierając "Wyloguj") a następnie zaloguj na właściwe konto.
-13. Kliknij "Zarządzaj API" - "Moje aplikacje".
-14. Kliknij przycisk "Zarejestruj aplikację".  
-15. W formularzu rejestracji aplikacji Allegro podaj następujące dane:
+12. Przejdź na stronę [apps.developer.allegro.pl.allegrosandbox.pl](https://apps.developer.allegro.pl.allegrosandbox.pl/). Upewnij się że zalogowany jesteś na konto Allegro w ramach którego działać będzie aplikacja. Jeśli nie, wyloguj się (klikając ikonę obok nazwy użytkownika i wybierając "Wyloguj") a następnie zaloguj na właściwe konto i kliknij "Zarządzaj API" - "Moje aplikacje (Sandbox)".
+13. Kliknij przycisk "Zarejestruj aplikację".  
+14. W formularzu rejestracji aplikacji Allegro podaj następujące dane:
 	- **Nazwa aplikacji:** dowolna, np. "Change Auctions Title"
 	- **Wybierz rodzaj aplikacji:** zaznacz drugą opcję ("Aplikacja działa w środowisku bez dostępu do przeglądarki lub klawiatury (np. aplikacja konsolowa lub na urządzeniu typu telewizor)")  
 	![allegro_application_type_device_flow](https://github.com/tomsyty/Change-auctions-title/assets/41838854/2ce51f89-4761-4ac8-8c61-268fc7c7b75e)
@@ -87,15 +85,15 @@ Trzeba było więc sobie jakoś z tym poradzić więc stworzyłem zewnętrzną a
 	- Zaznacz `* Znam i akceptuję regulamin REST API Allegro`.
 	- Kliknij przycisk "Zarejestruj".
 	- Na koncie możesz mieć do 5 zarejestrowanych aplikacji. Jeżeli chciałbyś ją usunąć zrobisz to na tej samej stronie.
-16. Aplikacja zostanie zarejestrowana. Kliknij "Szczegóły" aby odczytać Client ID i Client Secret. Zaznacz i skopiuj parametr Client ID, wklej go na stronie opcji rozszerzenia w polu Client ID. Kliknij "Pokaż" przy parametrze Client Secret, aby odsłonić domyślnie zamaskowaną wartość tego parametru, zaznacz i skopiuj parametr Client Secret, wklej go na stronie ustawień rozszerzenia w polu Client Secret. Zamknij okno ze szczegółami aplikacji.
-17. Kliknij "Zapisz" a następnie "Zaloguj" na stronie opcji rozszerzenia. Zostaniesz przeniesiony na stronę Allegro gdzie musisz wkleić kod podany przez aplikację (kod uzupełni się automatycznie)  
+15. Aplikacja zostanie zarejestrowana. Kliknij "Szczegóły" aby odczytać Client ID i Client Secret. Zaznacz i skopiuj parametr Client ID, wklej go na stronie opcji rozszerzenia w polu Client ID. Kliknij "Pokaż" przy parametrze Client Secret, aby odsłonić domyślnie zamaskowaną wartość tego parametru, zaznacz i skopiuj parametr Client Secret, wklej go na stronie ustawień rozszerzenia w polu Client Secret. Zamknij okno ze szczegółami aplikacji.
+16. Kliknij "Zapisz" a następnie "Zaloguj" na stronie opcji rozszerzenia. Zostaniesz przeniesiony na stronę Allegro gdzie musisz wkleić kod podany przez aplikację (kod uzupełni się automatycznie)  
 	![allegro_enter_device_code](https://github.com/tomsyty/Change-auctions-title/assets/41838854/6811d5b5-b798-489a-b80a-a70aefc21593)
-18. Kliknij przycisk "Dalej". Zostaniesz przeniesiony na stronę Allegro gdzie musisz potwierdzić że kontynuujesz jako zalogowany użytkownik  
+17. Kliknij przycisk "Dalej". Zostaniesz przeniesiony na stronę Allegro gdzie musisz potwierdzić że kontynuujesz jako zalogowany użytkownik  
 	![allegro_confirm_account_dialog](https://github.com/tomsyty/Change-auctions-title/assets/41838854/7485140b-6dd8-4e74-aea6-823a9746b141)
-19. Kliknij przycisk "Kontynuuj". Zostaniesz przeniesiony na stronę Allegro z pytaniem czy chcesz powiązać swoje konto z aplikacją  
+18. Kliknij przycisk "Kontynuuj". Zostaniesz przeniesiony na stronę Allegro z pytaniem czy chcesz powiązać swoje konto z aplikacją  
 	![allegro_account_linking_question_allegro-api-sale-offers-read, allegro-api-sale-offers-write, allegro-api-profile-read](https://github.com/tomsyty/Change-auctions-title/assets/41838854/4aa89ef8-32b2-44b3-b27e-57d3d84ef80b)
-20. Kliknij przycisk "Tak, powiąż konto". Jeśli chiałbyś usunąć powiązanie aplikacji z kontem zrobisz to na stronie Allegro - Moje Allegro - Konto - Bezpieczeństwo - [Powiązane aplikacje](https://allegro.pl/moje-allegro/moje-konto/powiazane-aplikacje)
-21. Na stronie opcji rozszerzenia pojawi się komunikat o zalogowaniu wraz z nazwą użytkownika.  
+19. Kliknij przycisk "Tak, powiąż konto". Jeśli chiałbyś usunąć powiązanie aplikacji z kontem zrobisz to na stronie Allegro - Moje Allegro - Konto - Bezpieczeństwo - [Powiązane aplikacje](https://allegro.pl/moje-allegro/moje-konto/powiazane-aplikacje)
+20. Na stronie opcji rozszerzenia pojawi się komunikat o zalogowaniu wraz z nazwą użytkownika.  
 </details>
 
 ***
