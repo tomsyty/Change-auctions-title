@@ -15,7 +15,7 @@ Jest to rozszerzenie do przeglądarki Chrome. Wszystkie rozszerzenia testuję ty
 	<summary>Instrukcja rejestracji aplikacji</summary>
 	
 	1. Otwórz stronę [developer.allegro.pl](https://developer.allegro.pl/).
-	2. Kliknij "Zarządzaj API" - "Moje aplikacje". Upewnij się że zalogowany jesteś na konto Allegro (sandbox) w ramach którego działać będzie aplikacja. Jeśli nie, wyloguj się (klikając ikonę obok nazwy użytkownika i wybierz "Wyloguj") a następnie zaloguj się na właściwe konto.
+	2. Kliknij "Zarządzaj API" - "Moje aplikacje". Upewnij się że zalogowany jesteś na konto Allegro w ramach którego działać będzie aplikacja. Jeśli nie, wyloguj się (klikając ikonę obok nazwy użytkownika i wybierz "Wyloguj") a następnie zaloguj się na właściwe konto.
 	3. Kliknij przycisk "Zarejestruj aplikację".  
 	4. W formularzu rejestracji aplikacji Allegro podaj następujące dane:
 		- **Nazwa aplikacji:** dowolna, np. "Change Auctions Title"
