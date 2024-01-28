@@ -3,6 +3,8 @@ To rozszerzenie pozwala na łatwą i szybką zmianę tytułu aukcji bezpośredni
 
 Jest to rozszerzenie do przeglądarki Chrome. Wszystkie rozszerzenia testuję tylko dla systemu Windows 10 i najnowszej wersji przeglądarki.
 
+![Alt text](assets/change_auctions_title.gif)
+
 **Instrukcja instalacji:**
 1. Pobierz rozszerzenie "change_auctions_title.zip" z listy plików widocznej powyżej i rozpakuj je tam gdzie zamierzasz je trzymać.
 2. Kliknij ikonę menu rozszerzeń w prawym górnym rogu okna przeglądarki (ikona puzzla) ![Alt text](assets/chrome_extensions_menu_icon.png) lub z menu przeglądarki wybierz "Rozszerzenia - Zarządzaj rozszerzeniami".
