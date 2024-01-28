@@ -1,2 +1,6 @@
 [2024-01-06] v1.0.1:
 - poprawiono walidację danych na stronie opcji rozszerzenia
+[2024-01-28] v1.0.2:
+- poprawiono obsługę błędów
+- poprawiono wyświetlanie wielu komunikatów o tej samej treści (dodano licznik zamiast wyświetlania kolejnego)
+- usprawnienia kodu aplikacji
