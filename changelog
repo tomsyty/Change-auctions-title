@@ -4,3 +4,5 @@
 - poprawiono obsługę błędów
 - poprawiono wyświetlanie wielu komunikatów o tej samej treści (dodano licznik zamiast wyświetlania kolejnego)
 - usprawnienia kodu aplikacji
+[2024-08-29] v1.0.3:
+- przystosowano do nowej strony Sales Center
